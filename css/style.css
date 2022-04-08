@@ -1,0 +1,132 @@
+/* шапка*/
+.header__logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(18, 18, 100);
+}
+
+.header{
+  
+}
+.nav{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exit{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+.nav__link{
+  
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  color: rgb(18, 18, 100);
+  text-decoration: none;
+
+  transition: color .2s linear;
+}
+
+.nav__link:hover{
+  color: rgb(252, 139, 2);
+}
+
+
+
+.intro__title{
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(18, 18, 100);
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-c_s-b {
+  justify-content: space-between;
+}
+
+/* Лист с заявками */
+
+.requests {
+  width: 100%;
+}
+
+.requests-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.request-item {
+  background-color: rgb(32, 32, 32);
+  padding: 10px;
+  max-width: 320px;
+  margin: 5px;
+}
+
+.request-item * {
+  color: aliceblue;
+}
+.register__1{
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(50, 11, 221);
+  padding: 10px;
+  max-width: 320px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.form-element input{
+  width: 100%;
+}
+
+.request-item div {
+  /* display: inline-block; */
+}
+
+.panel-block {
+  /* display: inline-block; */
+  margin-bottom: 10px;
+  border-bottom: 2px rgb(85, 85, 85) solid ;
+}
+
+.panel-block:first-child {
+  border-bottom: none;
+}
+
+.panel-block:last-child {
+  border-bottom: none;
+}
+
+
+.req-img {
+  width: 100%;
+}
+
+.panel-title {
+  text-align: center;
+}
+
+/* =============== */
